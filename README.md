@@ -1,4 +1,4 @@
-#IiTP JAVA PRACTICE 2024
+# IiTP JAVA PRACTICE 2024
 Sonarcloud: https://sonarcloud.io/project/overview?id=sshivaxx_JavaPractice2024
 Tasks:
 - Контейнеры, очереди, стеки:
