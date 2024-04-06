@@ -2,7 +2,7 @@
 ## Sonarcloud: https://sonarcloud.io/project/overview?id=sshivaxx_JavaPractice2024
 Tasks:
 - Контейнеры, очереди, стеки:
-  1. """Name""" link:https://github.com/sshivaxx/JavaPractice2024/blob/main/src/Main.java PLAN: FACT:
+  1. """Name""" link:https://github.com/sshivaxx/JavaPractice2024/tree/task1/tasks/ch1/task1 PLAN: FACT:
   2. 
   3.
   4.
