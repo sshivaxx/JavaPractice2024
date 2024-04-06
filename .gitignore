@@ -2,8 +2,6 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-sonar-project.properties
-.github/workflows/build.yml
 
 ### Eclipse ###
 .apt_generated
