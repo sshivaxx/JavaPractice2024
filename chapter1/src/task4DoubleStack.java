@@ -1,28 +1,28 @@
 import java.util.NoSuchElementException;
 
-public class t4_DoubleStack<T> {
-    private Deque<T> deque;
+public class task4DoubleStack<T> {
+    private final Deque<T> deque;
 
-    public t4_DoubleStack() {
+    public task4DoubleStack() {
         deque = new Deque<>();
     }
 
-    public void push1(T item) {
+    public void pushFirst(T item) {
         deque.addFirst(item);
     }
 
-    public void push2(T item) {
+    public void pushLast(T item) {
         deque.addLast(item);
     }
 
-    public T pop1() {
+    public T popFirst() {
         if (deque.isEmpty()) {
             throw new NoSuchElementException("Stack 1 is empty");
         }
         return deque.removeFirst();
     }
 
-    public T pop2() {
+    public T popLast() {
         if (deque.isEmpty()) {
             throw new NoSuchElementException("Stack 2 is empty");
         }

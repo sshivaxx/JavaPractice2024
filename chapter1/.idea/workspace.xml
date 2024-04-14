@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25a4b11c-febb-497c-99f0-8cf56b403abe" name="Changes" comment="">
+    <list default="true" id="871ebe4f-4ef1-4e2c-88ac-ba8e0e0eedec" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/t1_LinkedStackQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/t2_RandomQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/t3_RandomQueueIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/t4_DoubleStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1LinkedStackQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task2RandomQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task3RandomQueueIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task4DoubleStack.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../chapter2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +40,7 @@
   "customColor": "",
   "associatedIndex": 2
 }]]></component>
-  <component name="ProjectId" id="2f6hKurB5jmLfKgijVV9jyir1Iy" />
+  <component name="ProjectId" id="2f6iGFm9joZHcRY04Mm3hDwb6lF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,6 +50,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "#1 on task1",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -53,12 +69,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="25a4b11c-febb-497c-99f0-8cf56b403abe" name="Changes" comment="" />
-      <created>1713127374945</created>
+      <changelist id="871ebe4f-4ef1-4e2c-88ac-ba8e0e0eedec" name="Changes" comment="" />
+      <created>1713127831569</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1713127374945</updated>
-      <workItem from="1713127376000" duration="197000" />
+      <updated>1713127831569</updated>
+      <workItem from="1713127832661" duration="310000" />
     </task>
     <servers />
   </component>

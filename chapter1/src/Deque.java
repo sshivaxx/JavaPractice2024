@@ -25,9 +25,6 @@ public class Deque<T> {
         return size == 0;
     }
 
-    public int size() {
-        return size;
-    }
 
     public void addFirst(T item) {
         Node<T> newNode = new Node<>(item);
@@ -98,5 +95,8 @@ public class Deque<T> {
             throw new NoSuchElementException("Deque is empty");
         }
         return rear.data;
+    }
+    public int getSize() {
+        return size;
     }
 }
