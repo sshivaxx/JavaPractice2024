@@ -1,9 +1,9 @@
 import java.util.Iterator;
 
-public class t3_RandomQueueIterator<T> implements Iterator<T> {
-    private final t2_RandomQueue<T> queue;
+public class task3RandomQueueIterator<T> implements Iterator<T> {
+    private final task2RandomQueue<T> queue;
 
-    public t3_RandomQueueIterator(t2_RandomQueue<T> queue) {
+    public task3RandomQueueIterator(task2RandomQueue<T> queue) {
         this.queue = queue;
     }
 

@@ -1,9 +1,9 @@
 import java.util.NoSuchElementException;
-public class t1_LinkedStackQueue<T> {
+public class task1LinkedStackQueue<T> {
     private Node<T> head;
     private Node<T> tail;
 
-    public void push(T item) {
+    public void pushInBegin(T item) {
         Node<T> newNode = new Node<>(item);
         if (isEmpty()) {
             head = newNode;
@@ -26,7 +26,7 @@ public class t1_LinkedStackQueue<T> {
         return data;
     }
 
-    public void append(T item) {
+    public void appendInEnd(T item) {
         Node<T> newNode = new Node<>(item);
         if (isEmpty()) {
             head = newNode;

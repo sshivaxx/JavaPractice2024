@@ -25,10 +25,6 @@ public class Deque<T> {
         return size == 0;
     }
 
-    public int size() {
-        return size;
-    }
-
     public void addFirst(T item) {
         Node<T> newNode = new Node<>(item);
         if (isEmpty()) {
@@ -84,6 +80,9 @@ public class Deque<T> {
         }
         size--;
         return item;
+    }
+    public int getSize() {
+        return size;
     }
 
     public T getFirst() {
