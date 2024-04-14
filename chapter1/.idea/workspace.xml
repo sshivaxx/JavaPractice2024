@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2179ca04-021b-4701-8962-0908a1c927ed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/t1_LinkedStackQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1LinkedStackQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/t2_RandomQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task2RandomQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/t3_RandomQueueIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task3RandomQueueIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/t4_DoubleStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task4DoubleStack.java" afterDir="false" />
-    </list>
+    <list default="true" id="2179ca04-021b-4701-8962-0908a1c927ed" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,21 +13,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sshivaxx"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sshivaxx&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:sshivaxx/JavaPractice2024.git",
-    "accountId": "2869ada4-f9ae-490c-ac41-e408c8422110"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:sshivaxx/JavaPractice2024.git&quot;,
+    &quot;accountId&quot;: &quot;2869ada4-f9ae-490c-ac41-e408c8422110&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2f6AIz8TvYD29VL2OtPlawMf7Os" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,7 +37,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "#1 on task1",
+    "git-widget-placeholder": "chapter2",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a335b10c-4a7e-4d43-86d3-a16965875d32" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../chapter1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter1/src/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter1/src/Deque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter1/src/task1LinkedStackQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter1/src/task1LinkedStackQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter1/src/task2RandomQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter1/src/task2RandomQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter1/src/task3RandomQueueIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter1/src/task3RandomQueueIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter1/src/task4DoubleStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter1/src/task4DoubleStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/t1Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/t1Vector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/t2Domain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/t2Domain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/t3StableSortWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/t3StableSortWrapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,41 +22,41 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sshivaxx"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sshivaxx&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:sshivaxx/JavaPractice2024.git",
-    "accountId": "2869ada4-f9ae-490c-ac41-e408c8422110"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:sshivaxx/JavaPractice2024.git&quot;,
+    &quot;accountId&quot;: &quot;2869ada4-f9ae-490c-ac41-e408c8422110&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2f6W7o25QoV0rwnoz5Rjw08X7Vk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "chapter2",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;chapter2&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -102,6 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713121842564</updated>
       <workItem from="1713121843565" duration="4720000" />
+      <workItem from="1713127145077" duration="14000" />
     </task>
     <servers />
   </component>
@@ -115,6 +107,11 @@
           <url>file://$PROJECT_DIR$/src/t1Vector.java</url>
           <line>26</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
