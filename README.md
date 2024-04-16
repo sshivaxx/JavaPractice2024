@@ -18,17 +18,18 @@ PLAN: 0.3 hours FACT: 0.3 hours<br>
 PLAN: 1 hour FACT: ~1.5 hours<br>
 ***
 - Применение сортировок: <br>
-1)2.5.21(cтр.329) Сортировка многомерных векторов(по первому элементу) <br>
+1) 2.5.21(cтр.329) Сортировка многомерных векторов(по первому элементу) <br>
 [Multidimensional Vector](https://github.com/sshivaxx/JavaPractice2024/blob/chapter2/chapter2/src/t1Vector.java) <br>
 Plan:20 minutes Fact:25 minutes <br>
-2)2.5.14 Сортировка доменных имён(смена мест первой и последней части) <br>
+2) 2.5.14 Сортировка доменных имён(смена мест первой и последней части) <br>
 [Domain Sort](https://github.com/sshivaxx/JavaPractice2024/blob/chapter2/chapter2/src/t2Domain.java) <br>
 Plan:30 minutes Fact:20 minutes <br>
-3)2.5.18 Метод-оболочка,делающий сортировку устойчивой<br>
+3) 2.5.18 Метод-оболочка,делающий сортировку устойчивой<br>
 [Stable Sort Wrapper](https://github.com/sshivaxx/JavaPractice2024/blob/chapter2/chapter2/src/t3StableSortWrapper.java) <br>
 Plan:30 minutes Fact:40 minutes <br>
-4)2.5.28 Вывод отсортированных имён файлов в указанном каталоге <br>
+4) 2.5.28 Вывод отсортированных имён файлов в указанном каталоге <br>
 [File Sorter(placed as a method task4 in main)](https://github.com/sshivaxx/JavaPractice2024/blob/chapter2/chapter2/src/Main.java)<br>
+Plan:40 minutes Fact:40 minutes <br>
 ***
 - Деревья бинарного поиска:
   1.
