@@ -1,3 +1,5 @@
+package ch1;
+
 import java.util.NoSuchElementException;
 public class task1LinkedStackQueue<T> {
     private Node<T> head;

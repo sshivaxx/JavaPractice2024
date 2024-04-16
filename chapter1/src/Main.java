@@ -1,11 +1,17 @@
+import ch1.task1LinkedStackQueue;
+import ch1.task2RandomQueue;
+import ch1.task3RandomQueueIterator;
+import ch1.task4DoubleStack;
 import java.util.Scanner;
+import java.util.logging.Logger;
 
 public class Main {
+    static Logger logger = Logger.getLogger(Main.class.getName());
     public static void main(String[] args) {
         int task;
+        Scanner scanner  = new Scanner(System.in);
         do {
-            Scanner scanner  = new Scanner(System.in);
-            System.out.println("Enter the number of task(from 1 to 4): ");
+            logger.info("Enter the number of task(from 1 to 4): ");
             task = scanner.nextInt();
             if (task == 1) {
                 task1();
@@ -20,7 +26,7 @@ public class Main {
                 task4();
                 task = againOrExit();
             }else {
-                System.out.println("Invalid input");
+                logger.info("Invalid input");
                 task = 0;
             }
         } while(task == 0);
@@ -29,7 +35,7 @@ public class Main {
     static int againOrExit(){
         int again = 1;
         Scanner scan = new Scanner(System.in);
-        System.out.println("Do you want to continue (Y/N): ");
+        logger.info("Do you want to continue (Y/N): ");
         String input = scan.nextLine();
         if(input.equalsIgnoreCase("Y")){
             again = 0;
@@ -46,7 +52,7 @@ public class Main {
         stackQueue.pushInBegin(2);
         stackQueue.pushInBegin(3);
 
-        System.out.println("Task 1:");
+        logger.info("Task 1:");
         System.out.println(stackQueue.pop());
 
         stackQueue.appendInEnd(4);
@@ -64,11 +70,11 @@ public class Main {
         queue.enqueue("B");
         queue.enqueue("C");
 
-        System.out.println("Task 2:");
-        System.out.println("Queue size: " + queue.getQueueSize());
+        logger.info("Task 2:");
+        logger.info("Queue size: " + queue.getQueueSize());
 
         while (!queue.isEmpty()) {
-            System.out.println("Dequeued item: " + queue.dequeue());
+            logger.info("Dequeued item: " + queue.dequeue());
         }
     }
 
@@ -80,7 +86,7 @@ public class Main {
         randomQueue.enqueue(3);
         randomQueue.enqueue(4);
 
-        System.out.println("Task 3:");
+        logger.info("Task 3:");
         task3RandomQueueIterator<Integer> iterator = new task3RandomQueueIterator<>(randomQueue);
         while (iterator.hasNext()) {
             Integer item = iterator.next();
@@ -99,7 +105,7 @@ public class Main {
         doubleStack.pushLast(5);
         doubleStack.pushLast(6);
 
-        System.out.println("Task 4:");
+        logger.info("Task 4:");
         System.out.println(doubleStack.popFirst());
         System.out.println(doubleStack.popFirst());
         System.out.println(doubleStack.popFirst());

@@ -1,3 +1,5 @@
+package ch1;
+
 import java.util.Iterator;
 
 public class task3RandomQueueIterator<T> implements Iterator<T> {

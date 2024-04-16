@@ -1,3 +1,5 @@
+package ch1;
+
 import java.util.NoSuchElementException;
 
 public class task4DoubleStack<T> {

@@ -1,10 +1,12 @@
+package ch1;
+
 import java.util.NoSuchElementException;
 
 public class Deque<T> {
     private Node<T> front;
     private Node<T> rear;
     private int size;
-
+    private static final String emptyDeque = "Deque is empty";
     private static class Node<T> {
         T data;
         Node<T> prev;
@@ -53,7 +55,7 @@ public class Deque<T> {
 
     public T removeFirst() {
         if (isEmpty()) {
-            throw new NoSuchElementException("Deque is empty");
+            throw new NoSuchElementException(emptyDeque);
         }
         T item = front.data;
         if (front == rear) {
@@ -69,7 +71,7 @@ public class Deque<T> {
 
     public T removeLast() {
         if (isEmpty()) {
-            throw new NoSuchElementException("Deque is empty");
+            throw new NoSuchElementException(emptyDeque);
         }
         T item = rear.data;
         if (front == rear) {
@@ -85,14 +87,14 @@ public class Deque<T> {
 
     public T getFirst() {
         if (isEmpty()) {
-            throw new NoSuchElementException("Deque is empty");
+            throw new NoSuchElementException(emptyDeque);
         }
         return front.data;
     }
 
     public T getLast() {
         if (isEmpty()) {
-            throw new NoSuchElementException("Deque is empty");
+            throw new NoSuchElementException(emptyDeque);
         }
         return rear.data;
     }

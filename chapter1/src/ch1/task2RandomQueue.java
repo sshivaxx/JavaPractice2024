@@ -1,14 +1,16 @@
+package ch1;
+
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class task2RandomQueue<T> {
     private final List<T> queue;
-    private final Random random;
+    private final SecureRandom random;
 
     public task2RandomQueue() {
         queue = new ArrayList<>();
-        random = new Random();
+        random = new SecureRandom();
     }
 
     public boolean isEmpty() {
