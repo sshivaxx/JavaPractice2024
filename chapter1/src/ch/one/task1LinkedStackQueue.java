@@ -1,4 +1,4 @@
-package ch1;
+package ch.one;
 
 import java.util.NoSuchElementException;
 public class task1LinkedStackQueue<T> {

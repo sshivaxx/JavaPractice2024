@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871ebe4f-4ef1-4e2c-88ac-ba8e0e0eedec" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch1/Deque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch1/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task1LinkedStackQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch1/task1LinkedStackQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task2RandomQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch1/task2RandomQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task3RandomQueueIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch1/task3RandomQueueIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task4DoubleStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch1/task4DoubleStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch1/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/one/Deque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch1/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/one/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch1/task1LinkedStackQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/one/task1LinkedStackQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch1/task2RandomQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/one/task2RandomQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch1/task3RandomQueueIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/one/task3RandomQueueIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch1/task4DoubleStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/one/task4DoubleStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter2/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,9 @@
       <option name="presentableId" value="Default" />
       <updated>1713127831569</updated>
       <workItem from="1713127832661" duration="2242000" />
-      <workItem from="1713254173304" duration="1557000" />
+      <workItem from="1713254173304" duration="2600000" />
+      <workItem from="1713300557877" duration="3000" />
+      <workItem from="1713352906246" duration="13000" />
     </task>
     <servers />
   </component>

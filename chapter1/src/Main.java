@@ -1,7 +1,7 @@
-import ch1.task1LinkedStackQueue;
-import ch1.task2RandomQueue;
-import ch1.task3RandomQueueIterator;
-import ch1.task4DoubleStack;
+import ch.one.task1LinkedStackQueue;
+import ch.one.task2RandomQueue;
+import ch.one.task3RandomQueueIterator;
+import ch.one.task4DoubleStack;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
