@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a335b10c-4a7e-4d43-86d3-a16965875d32" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../chapter1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter1/chapter1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter1/src/Deque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter1/src/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter1/src/task1LinkedStackQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter1/src/task2RandomQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter1/src/task3RandomQueueIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter1/src/task4DoubleStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +59,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;chapter2&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "chapter2",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/shiva/IdeaProjects/JavaPractice2024/chapter2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -94,6 +111,7 @@
       <updated>1713121842564</updated>
       <workItem from="1713121843565" duration="4720000" />
       <workItem from="1713127145077" duration="14000" />
+      <workItem from="1713354495397" duration="211000" />
     </task>
     <servers />
   </component>
@@ -107,11 +125,6 @@
           <url>file://$PROJECT_DIR$/src/t1Vector.java</url>
           <line>26</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

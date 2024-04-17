@@ -1,3 +1,4 @@
+package ch.two;
 import java.util.Arrays;
 //2.5.21
 public class t1Vector implements Comparable<t1Vector> {

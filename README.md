@@ -16,13 +16,21 @@ link:[Linked Stack Queue](https://github.com/sshivaxx/JavaPractice2024/blob/task
 4) 1.3.48(стр.164) Реализация двух стеков в деке с постоянным количеством операций в деке <br>
    link:[Two Stacks in a Deque](https://github.com/sshivaxx/JavaPractice2024/blob/task1/chapter1/src/t4_DoubleStack.java) <br>
    PLAN: 1 hour FACT: ~1.5 hours <br>
-   ***
-- Применение сортировок: 
-  1.
-  2. 
-  3.
-  4.
-  ***
+***
+- Применение сортировок: <br>
+1) 2.5.21(cтр.329) Сортировка многомерных векторов(по первому элементу) <br>
+[Multidimensional Vector](https://github.com/sshivaxx/JavaPractice2024/blob/chapter2/chapter2/src/t1Vector.java) <br>
+Plan:20 minutes Fact:25 minutes <br>
+2) 2.5.14 Сортировка доменных имён(смена мест первой и последней части) <br>
+[Domain Sort](https://github.com/sshivaxx/JavaPractice2024/blob/chapter2/chapter2/src/t2Domain.java) <br>
+Plan:30 minutes Fact:20 minutes <br>
+3) 2.5.18 Метод-оболочка,делающий сортировку устойчивой<br>
+[Stable Sort Wrapper](https://github.com/sshivaxx/JavaPractice2024/blob/chapter2/chapter2/src/t3StableSortWrapper.java) <br>
+Plan:30 minutes Fact:40 minutes <br>
+4) 2.5.28 Вывод отсортированных имён файлов в указанном каталоге <br>
+[File Sorter(placed as a method task4 in main)](https://github.com/sshivaxx/JavaPractice2024/blob/chapter2/chapter2/src/Main.java)<br>
+Plan:40 minutes Fact:40 minutes <br>
+***
 - Деревья бинарного поиска:
   1.
   2. 

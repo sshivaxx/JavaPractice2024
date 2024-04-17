@@ -2,44 +2,32 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Comparator;
 import java.io.File;
+import ch.two.t1Vector;
+import ch.two.t2Domain;
+import ch.two.t3StableSortWrapper;
 
 public class Main {
     public static void main(String[] args) {
-        int task;
+        int task, replay = 0;
+        Scanner scanner = new Scanner(System.in);
         do {
-            Scanner scanner  = new Scanner(System.in);
             System.out.println("Enter the number of task(from 1 to 4): ");
             task = scanner.nextInt();
             if (task == 1) {
                 task1();
-                task = againOrExit();
-            }else if (task == 2) {
+            } else if (task == 2) {
                 task2();
-                task = againOrExit();
-            }else if (task == 3) {
+            } else if (task == 3) {
                 task3();
-                task = againOrExit();
-            }else if (task == 4) {
+            } else if (task == 4) {
                 task4();
-                task = againOrExit();
-            }else {
+            } else {
                 System.out.println("Invalid input");
-                task = 0;
+                replay = 1;
             }
-        } while(task == 0);
-    }
-
-    static int againOrExit(){
-        int again = 1;
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Do you want to continue (Y/N): ");
-        String input = scan.nextLine();
-        if(input.equalsIgnoreCase("Y")){
-            again = 0;
-        } else if(input.equalsIgnoreCase("N")){
-            System.exit(0);
-        }
-        return again;
+            System.out.println("Enter 0 to end or another symbol to continue");
+            replay = scanner.nextInt();
+        } while (replay != 0);
     }
 
     static void task1(){

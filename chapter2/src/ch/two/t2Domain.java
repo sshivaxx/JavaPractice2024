@@ -1,4 +1,5 @@
-class t2Domain implements Comparable<t2Domain> { //2.5.14
+package ch.two;
+public class t2Domain implements Comparable<t2Domain> { //2.5.14
     private final String name;
 
     public t2Domain(String name) {
