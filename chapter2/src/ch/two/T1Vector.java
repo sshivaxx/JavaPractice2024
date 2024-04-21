@@ -1,15 +1,15 @@
 package ch.two;
 import java.util.Arrays;
 //2.5.21
-public class t1Vector implements Comparable<t1Vector> {
+public class T1Vector implements Comparable<T1Vector> {
     private final int[] components;
 
-    public t1Vector(int... components) {
+    public T1Vector(int... components) {
         this.components = components;
     }
 
     @Override
-    public int compareTo(t1Vector other) {
+    public int compareTo(T1Vector other) {
         for (int i = 0; i < components.length; i++) {
             if (components[i] < other.components[i]) {
                 return -1;

@@ -1,8 +1,8 @@
 package ch.two;
-public class t2Domain implements Comparable<t2Domain> { //2.5.14
+public class T2Domain implements Comparable<T2Domain> { //2.5.14
     private final String name;
 
-    public t2Domain(String name) {
+    public T2Domain(String name) {
         this.name = name;
     }
 
@@ -25,7 +25,7 @@ public class t2Domain implements Comparable<t2Domain> { //2.5.14
     }
 
     @Override
-    public int compareTo(t2Domain other) {
+    public int compareTo(T2Domain other) {
         return getReverseName().compareTo(other.getReverseName());
     }
 }
