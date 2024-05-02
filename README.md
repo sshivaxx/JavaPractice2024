@@ -32,15 +32,32 @@ Plan:30 minutes Fact:40 minutes <br>
 Plan:40 minutes Fact:40 minutes <br>
 ***
 - Деревья бинарного поиска:
-  1.
-  2. 
-  3.
-  4.
+1) 3.2.25 (стр. 380) Идеальная балансировка бинарного дерева <br>
+[Perfectly Balanced Tree](https://github.com/sshivaxx/JavaPractice2024/blob/chapter3/chapter3/src/ch/three/T1PerfectlyBalancedTree.java) <br>
+Plan: 1 hour Fact: 45 minutes <br>
+2) 3.2.28 (cтр. 380) Программное кэширование (попасть к последнему узлу за константное время) <br>
+[BST](https://github.com/sshivaxx/JavaPractice2024/blob/chapter3/chapter3/src/ch/three/T2Bst.java) <br>
+Plan: 30 minutes Fact: 30 minutes <br>
+3)3.2.29 (стр.380) Проверка бинарного дерева<br>
+[Is Binary Tree](https://github.com/sshivaxx/JavaPractice2024/blob/chapter3/chapter3/src/ch/three/T3BinaryTreeChecker.java) <br>
+Plan: 30 minutes Fact: 30 minutes <br>
+4) 3.2.33 (cтр. 381) Проверка выбора и ранга <br>
+[Check Select Rank](https://github.com/sshivaxx/JavaPractice2024/blob/chapter3/chapter3/src/ch/three/T4SelectRankChecker.java) <br>
+Plan: 30 minutes Fact: 30 minutes <br>
+***
 - Сбалансированные деревья поиска:
-  1.
-  2. 
-  3.
-  4.
+1) 3.3.23 (стр. 407) 2-3 деревья без требования баланса <br>
+[Two Three Trees](https://github.com/sshivaxx/JavaPractice2024/blob/chapter4/chapter4/src/ch/four/T1TwoThreeTree.java) <br>
+Plan: 1 hour Fact: 1 hour <br>
+2) 3.3.25 (cтр. 407) Нисходящие 2-3-4 деревья <br>
+[Red Black Tree](https://github.com/sshivaxx/JavaPractice2024/blob/chapter4/chapter4/src/ch/four/T2RedBlackTree.java) <br>
+Plan: 1.5 hours Fact: 1 hour <br>
+3)3.3.35 (стр.408) 2-3 деревья<br>
+[Two Tree ST](https://github.com/sshivaxx/JavaPractice2024/blob/chapter4/chapter4/src/ch/four/T3TwoThreeST.java) <br>
+Plan: 45 minutes Fact: 1 hour <br>
+4) 3.3.36 (cтр. 408) 2-3-4-5-6-7-8 Деревья <br>
+[Two Three Four Trees](https://github.com/sshivaxx/JavaPractice2024/blob/chapter4/chapter4/src/ch/four/T4TwoThreeFourTree.java) <br>
+Plan: 30 minutes Fact: 30 minutes <br>
 - Хеш-таблицы:
   1.
   2. 
