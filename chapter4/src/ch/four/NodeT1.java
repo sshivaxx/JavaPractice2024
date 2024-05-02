@@ -3,11 +3,11 @@ package ch.four;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Node {
+public class NodeT1 {
         private final List<Integer> keys;
-        private List<Node> children;
+        private List<NodeT1> children;
 
-        public Node() {
+        public NodeT1() {
             keys = new ArrayList<>();
             children = new ArrayList<>();
         }
@@ -16,7 +16,7 @@ public class Node {
             return keys;
         }
 
-        public List<Node> getChildren() {
+        public List<NodeT1> getChildren() {
             return children;
         }
 

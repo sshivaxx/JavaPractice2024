@@ -1,4 +1,6 @@
 package ch.four;
 
-public class Color {
+public enum Color {
+    RED,
+    BLACK
 }
