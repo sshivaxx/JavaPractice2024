@@ -31,11 +31,19 @@ Plan:30 minutes Fact:40 minutes <br>
 [File Sorter(placed as a method task4 in main)](https://github.com/sshivaxx/JavaPractice2024/blob/chapter2/chapter2/src/Main.java)<br>
 Plan:40 minutes Fact:40 minutes <br>
 ***
-- Деревья бинарного поиска:
-  1.
-  2. 
-  3.
-  4.
+- Деревья бинарного поиска: <br>
+1) 3.2.25 (стр. 380) Идеальная балансировка бинарного дерева <br>
+[Perfectly Balanced Tree](https://github.com/sshivaxx/JavaPractice2024/blob/chapter3/chapter3/src/ch/three/T1PerfectlyBalancedTree.java) <br>
+Plan: 1 hour Fact: 45 minutes <br>
+2) 3.2.28 (cтр. 380) Программное кэширование (попасть к последнему узлу за константное время) <br>
+[BST](https://github.com/sshivaxx/JavaPractice2024/blob/chapter3/chapter3/src/ch/three/T2Bst.java) <br>
+Plan: 30 minutes Fact: 30 minutes <br>
+3)3.2.29 (стр.380) Проверка бинарного дерева<br>
+[Is Binary Tree](https://github.com/sshivaxx/JavaPractice2024/blob/chapter3/chapter3/src/ch/three/T3BinaryTreeChecker.java) <br>
+Plan: 30 minutes Fact: 30 minutes <br>
+4) 3.2.33 (cтр. 381) Проверка выбора и ранга
+[Check Select Rank](https://github.com/sshivaxx/JavaPractice2024/blob/chapter3/chapter3/src/ch/three/T4SelectRankChecker.java) <br>
+Plan: 30 minutes Fact: 30 minutes <br>
 - Сбалансированные деревья поиска:
   1.
   2. 
