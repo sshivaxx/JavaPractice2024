@@ -2,8 +2,7 @@ name: Build
 on:
   push:
     branches:
-      - main
-      - task1
+      - chapter4
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
