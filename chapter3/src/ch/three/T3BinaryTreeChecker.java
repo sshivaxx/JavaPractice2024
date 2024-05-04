@@ -1,11 +1,8 @@
 package ch.three;
 
 public class T3BinaryTreeChecker {
-    public static boolean isBinaryTree(Node root) {
-        return isBinaryTree(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
-    }
 
-    private static boolean isBinaryTree(Node node, int min, int max) {
+    public static boolean isBinaryTree(Node node, int min, int max) {
         if (node == null) {
             return true;
         }

@@ -2,9 +2,10 @@ package ch.three;
 import java.util.Arrays;
 
 public class T1PerfectlyBalancedTree {
+    private static final Node NULL_NODE = new Node(Integer.MIN_VALUE);
     public static Node balanceKeys(int[] keys) {
         if (keys.length == 0) {
-            return null;
+            return NULL_NODE;
         }
 
         Arrays.sort(keys);
@@ -13,7 +14,7 @@ public class T1PerfectlyBalancedTree {
 
     private static Node constructBalancedTree(int[] keys, int start, int end) {
         if (start > end) {
-            return null;
+            return NULL_NODE;
         }
 
         int mid = (start + end) / 2;
@@ -26,11 +27,10 @@ public class T1PerfectlyBalancedTree {
     }
 
     public static void inOrderTraversal(Node node) {
-        if (node != null) {
+        if (node != NULL_NODE) {
             inOrderTraversal(node.left);
             System.out.print(node.key + " ");
             inOrderTraversal(node.right);
         }
     }
 }
-

@@ -16,7 +16,9 @@ public class Main {
                 try {
                     task = Integer.parseInt(scanner.next());
                     break;
-                } catch (NumberFormatException _) {}
+                } catch (NumberFormatException e) {
+                    e.printStackTrace();
+                }
             }
             if (task == 1) {
                 task1();
@@ -81,7 +83,7 @@ public class Main {
         root.right.left = new Node(5);
         root.right.right = new Node(7);
 
-        boolean isBST = T3BinaryTreeChecker.isBinaryTree(root);
+        boolean isBST = T3BinaryTreeChecker.isBinaryTree(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
         System.out.println("The tree is binary: " + isBST);
     }
 

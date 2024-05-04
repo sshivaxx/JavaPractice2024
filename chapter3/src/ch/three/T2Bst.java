@@ -1,5 +1,7 @@
 package ch.three;
 
+import java.util.NoSuchElementException;
+
 public class T2Bst {
     private Node root;
     private Node lastAccessedNode;
@@ -31,8 +33,11 @@ public class T2Bst {
 
         Node node = get(root, key);
         lastAccessedNode = node;
-
-        return (node != null) ? node.key : -1;
+        if (node != null) {
+            return node.key;
+        } else {
+            throw new NoSuchElementException();
+        }
     }
 
     private Node get(Node node, int key) {
