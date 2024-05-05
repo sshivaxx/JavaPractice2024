@@ -44,16 +44,35 @@ Plan: 30 minutes Fact: 30 minutes <br>
 4) 3.2.33 (cтр. 381) Проверка выбора и ранга
 [Check Select Rank](https://github.com/sshivaxx/JavaPractice2024/blob/chapter3/chapter3/src/ch/three/T4SelectRankChecker.java) <br>
 Plan: 30 minutes Fact: 30 minutes <br>
+***
 - Сбалансированные деревья поиска:
-  1.
-  2. 
-  3.
-  4.
+1) 3.3.23 (стр. 407) 2-3 деревья без требования баланса <br>
+[Two Three Trees](https://github.com/sshivaxx/JavaPractice2024/blob/chapter4/chapter4/src/ch/four/T1TwoThreeTree.java) <br>
+Plan: 1 hour Fact: 1 hour <br>
+2) 3.3.25 (cтр. 407) Нисходящие 2-3-4 деревья <br>
+[Red Black Tree](https://github.com/sshivaxx/JavaPractice2024/blob/chapter4/chapter4/src/ch/four/T2RedBlackTree.java) <br>
+Plan: 1.5 hours Fact: 1 hour <br>
+3)3.3.35 (стр.408) 2-3 деревья<br>
+[Two Tree ST](https://github.com/sshivaxx/JavaPractice2024/blob/chapter4/chapter4/src/ch/four/T3TwoThreeST.java) <br>
+Plan: 45 minutes Fact: 1 hour <br>
+4) 3.3.36 (cтр. 408) 2-3-4-5-6-7-8 Деревья <br>
+[Two Three Four Trees](https://github.com/sshivaxx/JavaPractice2024/blob/chapter4/chapter4/src/ch/four/T4TwoThreeFourTree.java) <br>
+Plan: 30 minutes Fact: 30 minutes <br>
+***
 - Хеш-таблицы:
-  1.
-  2. 
-  3.
-  4.
+1) 3.4.4(стр. 433) Идеальная хеш функция <br>
+[Perfect Hash Function](https://github.com/sshivaxx/JavaPractice2024/blob/chapter5/chapter5/src/ch/five/T1PerfectHashFunction.java) <br>
+Plan:  30 minutes Fact: 30 minutes <br>
+2) 3.4.22 (cтр. 435) Реализация HashCode для типов данных <br>
+[Hash Code](https://github.com/sshivaxx/JavaPractice2024/blob/chapter5/chapter5/src/ch/five/T2HashCode.java) <br>
+Plan: 20 minutes hours Fact: 15 minutes <br>
+3)3.4.23 (стр.435) Модульное хеширование<br>
+[Modular Hashing](https://github.com/sshivaxx/JavaPractice2024/blob/chapter5/chapter5/src/ch/five/T3ModularHash.java) <br>
+Plan: 20 minutes Fact: 20 minutes <br>
+4) 3.4.36 (cтр. 437) Диапазон длин списков <br>
+[Separate Chaining Hash Table](https://github.com/sshivaxx/JavaPractice2024/blob/chapter5/chapter5/src/ch/five/T4SeparateChainingHashTable.java) <br>
+Plan: 30 minutes Fact: 30 minutes <br>
+***
 - Сортировка строк:
   1.
   2. 
