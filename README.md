@@ -87,17 +87,17 @@ Plan: 20 minutes Fact: 30 minutes <br>
 [In-place Radix Sort](https://github.com/sshivaxx/JavaPractice2024/blob/chapter6/chapter6/src/ch/six/T4InPlaceRadixSort.java) <br>
 Plan: 30 minutes Fact: 30 minutes <br>
 ***
-- Trie-деревья:
+- Trie-деревья:<br>
 1)5.2.11 (стр.678) Вненшие односторонние ветви <br>
-[For TrieST](https://github.com/sshivaxx/JavaPractice2024/blob/chapter7/chapter7/src/ch/seven/T1TrieST.java)<br>
-[For TST](https://github.com/sshivaxx/JavaPractice2024/blob/chapter7/chapter7/src/ch/seven/T1Tst.java)<br>
-Plan:40 minutes Fact:30 minutes<br>
+[For TrieST](https://github.com/sshivaxx/JavaPractice2024/blob/chapter7/chapter7/src/ch/seven/T1TrieST.java) <br>
+[For TST](https://github.com/sshivaxx/JavaPractice2024/blob/chapter7/chapter7/src/ch/seven/T1Tst.java) <br>
+Plan:40 minutes Fact:30 minutes <br>
 2)5.2.14(cтр. 679) Поиск уникальных подстрок длиной L <br>
 [Placed as method task2 in main](https://github.com/sshivaxx/JavaPractice2024/blob/chapter7/chapter7/src/Main.java)<br>
-Plan: 20 minutes Fact:15 minutes
+Plan: 20 minutes Fact:15 minutes <br>
 3)5.2.15(стр. 679) Поиск уникальных подстрок любой длины <br>
 [Placed as method task3 in main](https://github.com/sshivaxx/JavaPractice2024/blob/chapter7/chapter7/src/Main.java)<br>
-Plan: 10 minutes Fact:10 minutes
+Plan: 10 minutes Fact:10 minutes <br>
 4)5.2.21(стр.679) Сопоставление подстрок <br>
 [Substring Matcher](https://github.com/sshivaxx/JavaPractice2024/blob/chapter7/chapter7/src/ch/seven/T4SubstringMatcher.java) <br>
 Plan:30 minutes Fact:20 minutes<br>
