@@ -59,7 +59,7 @@ Plan: 45 minutes Fact: 1 hour <br>
 [Two Three Four Trees](https://github.com/sshivaxx/JavaPractice2024/blob/chapter4/chapter4/src/ch/four/T4TwoThreeFourTree.java) <br>
 Plan: 30 minutes Fact: 30 minutes <br>
 ***
-- Хеш-таблицы:
+- Хеш-таблицы:<br>
 1) 3.4.4(стр. 433) Идеальная хеш функция <br>
 [Perfect Hash Function](https://github.com/sshivaxx/JavaPractice2024/blob/chapter5/chapter5/src/ch/five/T1PerfectHashFunction.java) <br>
 Plan:  30 minutes Fact: 30 minutes <br>
@@ -73,7 +73,7 @@ Plan: 20 minutes Fact: 20 minutes <br>
 [Separate Chaining Hash Table](https://github.com/sshivaxx/JavaPractice2024/blob/chapter5/chapter5/src/ch/five/T4SeparateChainingHashTable.java) <br>
 Plan: 30 minutes Fact: 30 minutes <br>
 ***
-- Сортировка строк:
+- Сортировка строк:<br>
 1) 5.1.11 (стр. 654) MSD сортировка на очередях <br>
 [MSD Sort](https://github.com/sshivaxx/JavaPractice2024/blob/chapter6/chapter6/src/ch/six/T1MsdSort.java) <br>
 Plan:  30 minutes Fact: 30 minutes <br>
