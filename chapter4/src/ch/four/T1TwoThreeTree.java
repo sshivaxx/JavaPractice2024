@@ -1,8 +1,9 @@
 package ch.four;
-public class T1TwoThreeTree { //3.3.23
+
+public class T1TwoThreeTree {
     private NodeT1 root;
 
-    public void TwoThreeTree() {
+    public T1TwoThreeTree() {
         root = null;
     }
 
@@ -18,16 +19,31 @@ public class T1TwoThreeTree { //3.3.23
     private void insertRecursive(NodeT1 nodeT1, int key) {
         if (nodeT1.getKeys().size() == 2) {  // 3-node
             if (key < nodeT1.getKeys().get(0)) {
+                if (nodeT1.getChildren().getFirst() == null) {
+                    nodeT1.getChildren().set(0, new NodeT1());
+                }
                 insertRecursive(nodeT1.getChildren().getFirst(), key);
             } else if (key > nodeT1.getKeys().get(1)) {
+                if (nodeT1.getChildren().size() < 3 || nodeT1.getChildren().get(2) == null) {
+                    nodeT1.getChildren().set(2, new NodeT1());
+                }
                 insertRecursive(nodeT1.getChildren().get(2), key);
             } else {
+                if (nodeT1.getChildren().size() < 2 || nodeT1.getChildren().get(1) == null) {
+                    nodeT1.getChildren().set(1, new NodeT1());
+                }
                 insertRecursive(nodeT1.getChildren().get(1), key);
             }
         } else if (nodeT1.getKeys().size() == 1) {  // 2-node
             if (key < nodeT1.getKeys().getFirst()) {
+                if (nodeT1.getChildren().isEmpty() || nodeT1.getChildren().getFirst() == null) {
+                    nodeT1.getChildren().set(0, new NodeT1());
+                }
                 insertRecursive(nodeT1.getChildren().getFirst(), key);
             } else {
+                if (nodeT1.getChildren().size() < 2 || nodeT1.getChildren().get(1) == null) {
+                    nodeT1.getChildren().set(1, new NodeT1());
+                }
                 insertRecursive(nodeT1.getChildren().get(1), key);
             }
         } else {  // Leaf node
@@ -47,9 +63,11 @@ public class T1TwoThreeTree { //3.3.23
             return 0;
         }
 
-        int pathLength = depth;
+        int pathLength = depth * nodeT1.getKeys().size();
         for (NodeT1 child : nodeT1.getChildren()) {
-            pathLength += calculatePathLength(child, depth + 1);
+            if (child != null) {
+                pathLength += calculatePathLength(child, depth + 1);
+            }
         }
 
         return pathLength;
@@ -62,7 +80,9 @@ public class T1TwoThreeTree { //3.3.23
 
         int count = nodeT1.getKeys().size();
         for (NodeT1 child : nodeT1.getChildren()) {
-            count += countKeys(child);
+            if (child != null) {
+                count += countKeys(child);
+            }
         }
 
         return count;

@@ -1,11 +1,11 @@
 package ch.four;
 
-import java.util.Objects;
+import java.util.List;
 
 public class T2RedBlackTree {
     private NodeT2 root;
 
-    public void RedBlackTree() {
+    public T2RedBlackTree() {
         root = null;
     }
 
@@ -21,24 +21,39 @@ public class T2RedBlackTree {
     }
 
     private NodeT2 insertRecursive(NodeT2 node, int key) {
-        if (node.getKeys().size() == 3) {  // 4-node
-            if (key < node.getKeys().get(0)) {
-                return insertRecursive(node.getChildren().getFirst(), key);
-            } else if (key > node.getKeys().get(2)) {
-                return insertRecursive(node.getChildren().get(3), key);
-            } else {
-                return insertRecursive(node.getChildren().get(1), key);
-            }
-        } else if (node.getKeys().size() == 2) {  // 3-node
-            if (key < node.getKeys().getFirst()) {
-                return insertRecursive(node.getChildren().getFirst(), key);
-            } else {
-                return insertRecursive(node.getChildren().get(1), key);
-            }
-        } else {  // 2-node or leaf node
+        if (node.getChildren().isEmpty()) {  // Leaf node
             node.getKeys().add(key);
             node.getKeys().sort(null);
             return node;
+        } else if (node.getKeys().size() == 2) {  // 3-node
+            if (key < node.getKeys().get(0)) {
+                if (node.getChildren().isEmpty()) {
+                    node.getChildren().add(new NodeT2());
+                }
+                return insertRecursive(node.getChildren().getFirst(), key);
+            } else if (key > node.getKeys().get(1)) {
+                if (node.getChildren().size() < 2) {
+                    node.getChildren().add(new NodeT2());
+                }
+                return insertRecursive(node.getChildren().get(1), key);
+            } else {
+                if (node.getChildren().size() < 3) {
+                    node.getChildren().add(new NodeT2());
+                }
+                return insertRecursive(node.getChildren().get(1), key);
+            }
+        } else {  // 2-node
+            if (key < node.getKeys().getFirst()) {
+                if (node.getChildren().isEmpty()) {
+                    node.getChildren().add(new NodeT2());
+                }
+                return insertRecursive(node.getChildren().getFirst(), key);
+            } else {
+                if (node.getChildren().size() < 2) {
+                    node.getChildren().add(new NodeT2());
+                }
+                return insertRecursive(node.getChildren().get(1), key);
+            }
         }
     }
 
@@ -47,106 +62,136 @@ public class T2RedBlackTree {
             node.setColor(Color.BLACK);
         } else {
             NodeT2 parent = getParent(node);
-            assert parent != null;
-            if (parent.getColor() == Color.BLACK) {
-                // No violation, tree is still valid
-                return;
-            }
+            if (parent != null && parent.getColor() == Color.RED) {
+                NodeT2 grandparent = getParent(parent);
+                NodeT2 uncle = getUncle(node);
 
-            NodeT2 grandparent = getParent(parent);
-            NodeT2 uncle = getUncle(node);
-
-            if (uncle != null && uncle.getColor() == Color.RED) {
-                // Case 1: Uncle is red
-                parent.setColor(Color.BLACK);
-                uncle.setColor(Color.BLACK);
-                assert grandparent != null;
-                grandparent.setColor(Color.RED);
-                fixTree(grandparent);
-            } else {
-                // Case 2: Uncle is black or missing
-                if (node == parent.getChildren().get(0) && parent ==
-                        Objects.requireNonNull(grandparent).getChildren().getFirst()) {
-                    // Left-Left case
-                    rotateRight(grandparent);
+                if (uncle != null && uncle.getColor() == Color.RED) {
                     parent.setColor(Color.BLACK);
-                    grandparent.setColor(Color.RED);
-                } else if (node == parent.getChildren().get(1) && parent ==
-                        Objects.requireNonNull(grandparent).getChildren().getFirst()) {
-                    // Left-Right case
-                    rotateLeft(parent);
-                    fixTree(parent);
-                } else if (node == parent.getChildren().get(1) && parent ==
-                        Objects.requireNonNull(grandparent).getChildren().get(1)) {
-                    // Right-Right case
-                    rotateLeft(grandparent);
-                    parent.setColor(Color.BLACK);
-                    grandparent.setColor(Color.RED);
+                    uncle.setColor(Color.BLACK);
+                    if (grandparent != null) {
+                        grandparent.setColor(Color.RED);
+                        fixTree(grandparent);
+                    }
                 } else {
-                    if (node == parent.getChildren().getFirst()) {
-                        assert grandparent != null;
-                        if (parent == grandparent.getChildren().get(1)) {
-                            // Right-Left case
+                    if (parent.getChildren().get(0) == node) {
+                        if (grandparent != null && grandparent.getChildren().getFirst() == parent) {
+                            rotateRight(grandparent);
+                        } else if (grandparent != null) {
                             rotateRight(parent);
-                            fixTree(parent);
+                            rotateLeft(grandparent);
+                        }
+                    } else if (parent.getChildren().get(1) == node) {
+                        if (grandparent != null && grandparent.getChildren().get(1) == parent) {
+                            rotateLeft(grandparent);
+                        } else if (grandparent != null) {
+                            rotateLeft(parent);
+                            rotateRight(grandparent);
                         }
                     }
+                    if (parent != null) parent.setColor(Color.BLACK);
+                    if (grandparent != null) grandparent.setColor(Color.RED);
                 }
             }
         }
     }
 
     private NodeT2 getParent(NodeT2 node) {
-        // Returns the parent of the given node
-        for (NodeT2 child : root.getChildren()) {
-            if (child.getChildren().contains(node)) {
-                return child;
-            }
+        return findParent(root, node);
+    }
+
+    private NodeT2 findParent(NodeT2 current, NodeT2 node) {
+        if (current == null || current.getChildren().isEmpty()) return null;
+        for (NodeT2 child : current.getChildren()) {
+            if (child == node) return current;
+            NodeT2 parent = findParent(child, node);
+            if (parent != null) return parent;
         }
         return null;
     }
 
     private NodeT2 getUncle(NodeT2 node) {
-        // Returns the uncle of the given node
         NodeT2 parent = getParent(node);
         NodeT2 grandparent = getParent(parent);
-        if (grandparent == null) {
-            return null;
-        }
-        if (parent == grandparent.getChildren().get(0)) {
-            return grandparent.getChildren().get(1);
+        if (grandparent == null) return null;
+        if (grandparent.getChildren().get(0) == parent) {
+            return grandparent.getChildren().size() > 1 ? grandparent.getChildren().get(1) : null;
         } else {
             return grandparent.getChildren().getFirst();
         }
     }
 
     private void rotateLeft(NodeT2 node) {
-        // Performs a left rotation around the given node
         NodeT2 parent = getParent(node);
         NodeT2 grandparent = getParent(parent);
-        assert grandparent != null;
-        if (parent == grandparent.getChildren().getFirst()) {
-            grandparent.getChildren().set(0, node);
-        } else {
-            grandparent.getChildren().set(1, node);
+        if (parent != null) {
+            NodeT2 newParent = node.getChildren().isEmpty() ? null : node.getChildren().getFirst();
+            if (parent.getChildren().size() > 1) {
+                parent.getChildren().set(1, newParent);
+            } else {
+                parent.getChildren().add(newParent);
+            }
+            if (newParent != null) node.getChildren().set(0, parent);
+            if (grandparent != null) {
+                if (grandparent.getChildren().getFirst() == parent) {
+                    grandparent.getChildren().set(0, node);
+                } else {
+                    grandparent.getChildren().set(1, node);
+                }
+            } else {
+                root = node;
+            }
         }
-        assert parent != null;
-        parent.getChildren().set(1, node.getChildren().getFirst());
-        node.getChildren().set(0, parent);
     }
 
     private void rotateRight(NodeT2 node) {
-        // Performs a right rotation around the given node
         NodeT2 parent = getParent(node);
         NodeT2 grandparent = getParent(parent);
-        assert parent != null;
-        parent.getChildren().set(0, node.getChildren().get(1));
-        node.getChildren().set(1, parent);
-        assert grandparent != null;
-        if (parent == grandparent.getChildren().getFirst()) {
-            grandparent.getChildren().set(0, node);
-        } else {
-            grandparent.getChildren().set(1, node);
+        if (parent != null) {
+            NodeT2 newParent = node.getChildren().isEmpty() ? null : node.getChildren().get(1);
+            if (!parent.getChildren().isEmpty()) {
+                parent.getChildren().set(0, newParent);
+            } else {
+                parent.getChildren().add(newParent);
+            }
+            if (newParent != null) node.getChildren().set(1, parent);
+            if (grandparent != null) {
+                if (grandparent.getChildren().getFirst() == parent) {
+                    grandparent.getChildren().set(0, node);
+                } else {
+                    grandparent.getChildren().set(1, node);
+                }
+            } else {
+                root = node;
+            }
+        }
+    }
+
+    public NodeT2 getRoot() {
+        return root;
+    }
+
+    public void printTree() {
+        printTree(root, "", true);
+    }
+
+    private void printTree(NodeT2 node, String indent, boolean last) {
+        if (node != null) {
+            System.out.print(indent);
+            if (last) {
+                System.out.print("R---- ");
+                indent += "   ";
+            } else {
+                System.out.print("L---- ");
+                indent += "|  ";
+            }
+
+            System.out.println(node.getKeys() + " (" + node.getColor() + ")");
+
+            List<NodeT2> children = node.getChildren();
+            for (int i = 0; i < children.size(); i++) {
+                printTree(children.get(i), indent, i == children.size() - 1);
+            }
         }
     }
 }
