@@ -116,9 +116,12 @@ Plan: 40 minutes Fact:35 minutes <br>
 [Knut Morris Pratt](https://github.com/sshivaxx/JavaPractice2024/blob/chapter8/chapter8/src/cheight/T4KnutMorrisPratt.java) <br>
 Plan: 40 minutes Fact:35 minutes <br>
 ***
-- Регулярные выражения:
-  1.
-  2. 
-  3.
-  4.
+- Регулярные выражения:<br>
+1)Задания 1,2,3(5.5.8 стр.762,5.2.21 стр.763,5.2.23 стр.763)  расположены в комментариях [main](https://github.com/sshivaxx/JavaPractice2024/blob/chapter9/chapter9/src/Main.java)<br>
+ivaxx/JavaPractice2024/blob/chapter8/chapter8/src/cheight/T3BinaryStringCount.java) <br>
+Plan: 90 minutes Fact:100 minutes <br>
+2)5.5.25(стр.763) Код с фиксированной длиной <br>
+[RLE](https://github.com/sshivaxx/JavaPractice2024/blob/chapter9/chapter9/src/chnine/T4Rle.java) <br>
+Plan: 60 minutes Fact:50 minutes <br>
+
 
