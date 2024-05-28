@@ -117,10 +117,17 @@ Plan: 40 minutes Fact:35 minutes <br>
 Plan: 40 minutes Fact:35 minutes <br>
 ***
 - Регулярные выражения:<br>
-1)Задания 1,2,3(5.5.8 стр.762,5.2.21 стр.763,5.2.23 стр.763)  расположены в комментариях [main](https://github.com/sshivaxx/JavaPractice2024/blob/chapter9/chapter9/src/Main.java)<br>
-Plan: 90 minutes Fact:100 minutes <br>
-2)5.5.25(стр.763) Код с фиксированной длиной <br>
-[RLE](https://github.com/sshivaxx/JavaPractice2024/blob/chapter9/chapter9/src/chnine/T4Rle.java) <br>
-Plan: 60 minutes Fact:50 minutes <br>
+1)Задание 5.4.9 (placed in main as method task1) <br>
+Условие: Напишите регулярное выражение для двоичных строк, которые содержат не менее двух нулей, но не содержат последовательных нулей.<br>
+Время выполнения (PLAN: 30 минут FACT: 20 минут)<br>
+2)Задание 5.4.15(placed in main as method task2)<br>
+Условие: Одноуровневые РВ. Напишите РВ, описывающее множество строк, которые допустимы в двоичном алфавите, но без вложенных скобок. Например, строки (0.*1)* и (1.*0)* принадлежат этому языку, а (1(0 и 1)1)* — нет.<br>d
+Время выполнения (PLAN: 20 минут FACT: 20 минут)<br>
+3)[Задание 5.4.17](https://github.com/sshivaxx/JavaPractice2024/blob/chapter9/chapter9/src/chnine/Nfa.java)<br>
+Время выполнения (PLAN: 40 минут FACT: 35 минут)<br>
+4)[Задание 5.4.18](https://github.com/sshivaxx/JavaPractice2024/blob/chapter9/chapter9/src/chnine/Nfa.java)<br>
+Условие: Один или несколько. Добавьте в класс NFA обработку операции замыкания +.<br>
+Время выполнения (PLAN: 40 минут FACT: 35 минут)<br>
+
 
 
